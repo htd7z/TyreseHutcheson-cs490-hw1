@@ -9,7 +9,7 @@ generator client {
 }
 
 model Post {
-  id        Int @id @default(autoincrement())
+  id        Int      @id @default(autoincrement())
   title     String
   body      String
   createdAt DateTime @default(now())
